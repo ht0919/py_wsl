@@ -145,3 +145,17 @@ pipが導入されていることを確認します。
     $ pip install matplotlib==2.0.2
     $ pip install pandas==0.20.1
     $ pip install jupyter==1.0.0
+
+## jupyter notebookの起動
+
+.bashrcの最下行に利用するブラウザのフルパスを登録して再読み込みします。
+
+    $ echo 'export BROWSER="/mnt/c/Program Files (x86)/Google/Chrome/Application/chrome.exe"' >> ~/.bashrc
+    $ source ~/.bashrc
+
+jupyter notebookを起動して、表示されたURLをコピーして、起動したブラウザのアドレス欄に貼り付けます。
+
+    $ jupyter notebook
+    ＊ コンソールに「http://localhost:8888/?token=b66183f709c2304f12ca4ce15564772261fd49a2d0589296」のように表示されたアドレスをコピーしてブラウザに貼り付ける
+
+このとき自動起動したブラウザに「ファイルが見つかりませんでした」と表示される件については対応策を調査中です。
