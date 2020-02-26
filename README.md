@@ -178,7 +178,7 @@ WSLで環境変数を設定して再読み込みを行います。
 
     $ python -m tkinter
 
-## Graphviz による決定着の可視化
+## Graphviz による決定木の可視化
 
 まずはUbuntuにパッケージをインストールします。
 
@@ -187,4 +187,4 @@ WSLで環境変数を設定して再読み込みを行います。
 次にpipで2つのパッケージをインストールします。
 
     $ pip install pydotplus
-    $ pip install Graphviz
+    $ pip install graphviz
