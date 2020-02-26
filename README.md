@@ -177,3 +177,14 @@ WSLで環境変数を設定して再読み込みを行います。
 次のコマンドを実行してテストウィンドウが表示されることを確認する。
 
     $ python -m tkinter
+
+## Graphviz による決定着の可視化
+
+まずはUbuntuにパッケージをインストールします。
+
+    $ sudo apt-get install graphviz
+
+次にpipで2つのパッケージをインストールします。
+
+    $ pip install pydotplus
+    $ pip install Graphviz
