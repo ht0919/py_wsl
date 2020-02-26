@@ -159,3 +159,21 @@ jupyter notebookを起動して、表示されたURLをコピーして、起動�
     ＊ コンソールに「http://localhost:8888/?token=b66183f709c2304f12ca4ce15564772261fd49a2d0589296」のように表示されたアドレスをコピーしてブラウザに貼り付ける
 
 このとき自動起動したブラウザに「ファイルが見つかりませんでした」と表示される件については対応策を調査中です。
+
+## matplotlibのグラフを表示する
+
+WSLでmatplotlibのグラフを表示するには、WindowsにXmingをインストールする必要があります。下記の手順でインストールして行きます。
+
+    1. [公式サイト](https://ja.osdn.net/projects/sfnet_xming/ "公式サイト")から下記のファイルをダウンロードして、それぞれをインストールする(すべてデフォルトの設定で可)
+      - Xming-6-9-0-31-setup.exe
+      - Xming-fonts-7-7-0-10-setup.exe
+    2. Xmingを起動する
+
+WSLで環境変数を設定して再読み込みを行います。
+
+    $ echo 'export DISPLAY="localhost:0.0"' >> ~/.bashrc
+    $ source ~/.bashrc
+
+次のコマンドを実行してテストウィンドウが表示されることを確認する。
+
+    $ python -m tkinter
