@@ -162,9 +162,9 @@ jupyter notebookを起動して、表示されたURLをコピーして、起動�
 
 ## matplotlibのグラフを表示する
 
-WSLでmatplotlibのグラフを表示するには、WindowsにXmingをインストールする必要があります。下記の手順でインストールして行きます。
+WSLでmatplotlibのグラフを表示するには、WindowsにXmingをインストールする必要があります。下記の手順でインストールして実行します。
 
-    1. [公式サイト](https://ja.osdn.net/projects/sfnet_xming/ "公式サイト")から下記のファイルをダウンロードして、それぞれをインストールする(すべてデフォルトの設定で可)
+    1. 公式サイト(https://ja.osdn.net/projects/sfnet_xming/)から下記のファイルをダウンロードしてインストールする(すべてデフォルトの設定で可)
       - Xming-6-9-0-31-setup.exe
       - Xming-fonts-7-7-0-10-setup.exe
     2. Xmingを起動する
