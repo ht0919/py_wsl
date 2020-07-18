@@ -77,7 +77,7 @@ cat /etc/os-releaseを実行すると、次の内容が表示されました。
 
 ## pyenvとpyenv-virtualenvの導入
 
-複数のPythonを切り替えて使えるように、plenvを導入します。
+複数のPythonを切り替えて使えるように、pyenvを導入します。
 
     $ git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 
